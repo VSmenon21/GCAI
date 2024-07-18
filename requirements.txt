@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+seaborn
+opencv-python
+streamlit==1.15.0
+numpy==1.23.5
+tensorflow==2.11.0
+keras==2.11.0
+matplotlib==3.6.2
+Pillow==9.3.0
+
