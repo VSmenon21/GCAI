@@ -11,14 +11,14 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 from PIL import Image
 import io
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import google.generativeai as genai
 
 # Load environment variables from .env file
-load_dotenv()
+# load_dotenv()
 
 # Configure GenkiCheck AI Doctor Assistant
-API_KEY = os.getenv('GOOGLE_API_KEY')
+API_KEY = AIzaSyCPoSuXSID1PBSePX_xPywpGHgjCG3YKNY
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
