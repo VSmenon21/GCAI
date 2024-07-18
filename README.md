@@ -1,6 +1,6 @@
 # GenkiCheck
 
-![GenkiCheck Screenshot](assets/screenshot.png)
+![GenkiCheck Screenshot](Screenshot.png)
 
 GenkiCheck is a healthcare application that uses deep learning models to predict various diseases from medical images such as X-rays and MRI scans. The application also provides medical insights through an integrated chatbot feature.
 
