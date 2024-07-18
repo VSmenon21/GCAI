@@ -2,6 +2,7 @@ numpy
 pandas
 scikit-learn
 seaborn
+dotenv
 opencv-python
 streamlit==1.15.0
 numpy==1.23.5
