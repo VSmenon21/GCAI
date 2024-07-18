@@ -4,6 +4,7 @@ scikit-learn
 seaborn
 dotenv
 opencv-python
+streamlit
 streamlit==1.15.0
 numpy==1.23.5
 tensorflow==2.11.0
