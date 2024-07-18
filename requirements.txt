@@ -7,7 +7,7 @@ streamlit
 streamlit==1.15.0
 numpy==1.23.5
 tensorflow
-keras==2.11.0
+keras
 matplotlib==3.6.2
 Pillow==9.3.0
 google-generativeai
