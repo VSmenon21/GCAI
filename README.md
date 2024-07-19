@@ -6,7 +6,7 @@ GenkiCheck is a healthcare application that uses deep learning models to predict
 
 ## Features
 
-- **Disease Prediction:** Predicts diseases such as COVID-19, Pneumonia, and Tuberculosis from X-ray images and Alzheimer's from MRI scans.
+- **Disease Prediction:** Predicts diseases such as Skin cancer, COVID-19, Pneumonia, and Tuberculosis from skin lesion images, X-ray images and Alzheimer's from MRI scans.
 - **Grad-CAM Visualization:** Provides Grad-CAM heatmaps to highlight areas of interest in the X-ray images.
 - **Chatbot Integration:** Offers medical advice and insights based on the predictions.
 - **Streamlit Web Interface:** User-friendly web interface for uploading images and viewing predictions.
@@ -17,9 +17,9 @@ The following models are used in the application:
 
 1. **Xception Model for X-ray Classification**
    - **Path:** `models/xception_weights_tf_dim_ordering_tf_kernels.h5`
-   - **Diseases:** Normal, COVID-19, Lung Opacity, Pneumonia
+   - **Diseases:** Normal, COVID-19, Tuberculosis, Pneumonia
 
-2. **EfficientNetB3 Model for Skin Cancer Classification**
+2. **VGG16 Model for Skin Cancer Classification**
    - **Path:** `models/skin.h5`
    - **Diseases:** Benign, Malignant
 
