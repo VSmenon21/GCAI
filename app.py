@@ -18,7 +18,7 @@ import google.generativeai as genai
 # load_dotenv()
 
 # Configure GenkiCheck AI Doctor Assistant
-API_KEY = "AIzaSyDqExR0yj7DxnYEBXPgCrm7hCIukS9j4hc"
+API_KEY = "AIzaSyBkyB1uvQHUHTQFECdnhNeqxeCtUfAfvbw"
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
